@@ -1,10 +1,15 @@
-import {TextField, styled} from '@mui/material'
+import {TextField} from '@mui/material'
 import React from 'react'
 function MyTextField(props){
     return <TextField 
         {...props}
         InputProps={{
-            inputProps: { min: 0, max: 60, style:{padding: 10}, }, 
+            inputProps: { 
+                min: 1,
+                max: 60,
+                style:{padding: 10}, 
+                
+            }, 
             sx:{
                 fontSize:"15px",
                 borderColor: "#000000", width: "70px", height:"30px", fontWeight:"300",

@@ -3,7 +3,7 @@ export const ActionTypes = {
     START_STOP_TIMER: 'START_STOP_TIMER',
     PAUSE_TIMER: 'PAUSE_TIMER',
     RESET_TIMER: 'RESET_TIMER',
-    TICK: 'TICK',
+    TICK_TIMER: 'TICK_TIMER',
   };
   
   export const updateSettings = (settings) => ({
@@ -23,6 +23,6 @@ export const ActionTypes = {
     type: ActionTypes.RESET_TIMER,
   });
   
-  export const tick = () => ({
-    type: ActionTypes.TICK,
+  export const tickTimer = () => ({
+    type: ActionTypes.TICK_TIMER,
   });
