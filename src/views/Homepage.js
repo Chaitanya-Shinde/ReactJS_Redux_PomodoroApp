@@ -168,6 +168,13 @@ function Homepage({ settings, updateSettings, timer, isRunning, isWorkSession, s
           </MenuItem>
         </Menu>
       </Stack>
+      <div style={{ position: 'fixed', bottom: 0, right: 0, padding: '20px' }}>
+        <Stack direction="row" spacing={2} alignItems="center">
+          <img src="https://avatars.githubusercontent.com/u/72722989?v=4" alt="Your Image" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />
+          <Typography variant="h3" fontSize='18px' fontWeight='bold' color="#444444" >Check out my <Link href='https://github.com/Chaitanya-Shinde' target="_blank" underline="hover" color='#FF7979'>Github Profile!</Link></Typography>
+        </Stack>
+      </div>
+      
   </div>
     
   );
